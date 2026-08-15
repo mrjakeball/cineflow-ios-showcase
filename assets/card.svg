@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="260" viewBox="0 0 640 260" role="img" aria-labelledby="title desc">
+  <title id="title">CineFlow iOS</title>
+  <desc id="desc">Planned native iOS catalogue project with a film-strip and phone motif</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080A12"/><stop offset="1" stop-color="#1B1233"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8B5CF6"/><stop offset="1" stop-color="#58A6FF"/></linearGradient>
+  </defs>
+  <rect width="640" height="260" rx="18" fill="url(#bg)"/>
+  <path d="M0 34h640M0 226h640" stroke="#FFFFFF" opacity=".04"/>
+  <g transform="translate(468 28)">
+    <rect x="0" y="0" width="112" height="204" rx="25" fill="#080B13" stroke="#6E59A8" stroke-width="2"/>
+    <rect x="10" y="18" width="92" height="158" rx="14" fill="#111827"/>
+    <path d="M23 139l20-34 20 19 16-26 16 41z" fill="url(#accent)" opacity=".82"/>
+    <circle cx="56" cy="72" r="18" fill="#F0F6FC" opacity=".9"/>
+    <path d="M52 63l13 9-13 9z" fill="#6D44D4"/>
+    <rect x="38" y="187" width="36" height="4" rx="2" fill="#8B949E" opacity=".6"/>
+  </g>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+    <text x="34" y="42" fill="#AFA2C7" font-size="16" letter-spacing="2">NEXT · NATIVE iOS</text>
+    <text x="34" y="104" fill="#F0F6FC" font-size="38" font-weight="700">CINEFLOW</text>
+    <text x="36" y="138" fill="#C4B5FD" font-size="18">Catalogue, detail, trailer</text>
+    <g font-size="15" fill="#F0F6FC">
+      <rect x="34" y="166" width="70" height="30" rx="8" fill="#6D44D4"/><text x="49" y="187">SWIFT</text>
+      <rect x="112" y="166" width="72" height="30" rx="8" fill="#6D44D4"/><text x="128" y="187">UIKIT</text>
+      <rect x="192" y="166" width="82" height="30" rx="8" fill="#316DCA"/><text x="207" y="187">MVVM</text>
+    </g>
+  </g>
+  <g fill="#8B5CF6" opacity=".8">
+    <circle cx="413" cy="58" r="3"><animate attributeName="opacity" values=".25;1;.25" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="433" cy="58" r="3" opacity=".45"/>
+  </g>
+  <rect x="1" y="1" width="638" height="258" rx="17" fill="none" stroke="#40345D" stroke-width="2"/>
+</svg>
