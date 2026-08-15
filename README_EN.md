@@ -117,8 +117,3 @@ Until then, the showcase deliberately remains an honest **project roadmap** inst
 <p align="center">
   <a href="https://github.com/mrjakeball"><strong>GitHub profile ↑</strong></a>
 </p>
-The showcase will change status only after a real Xcode build, iPhone Simulator verification, original screenshots, and reproducible tests exist. Until then, CineFlow remains a transparent roadmap project.
-
-<p align="center">
-  <a href="https://github.com/mrjakeball/portfolio">← Back to all projects</a>
-</p>
