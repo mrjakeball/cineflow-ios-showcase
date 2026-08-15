@@ -117,8 +117,3 @@
 <p align="center">
   <a href="https://github.com/mrjakeball"><strong>Профиль GitHub ↑</strong></a>
 </p>
-Витрина сменит статус только после реальной сборки в Xcode, проверки в iPhone Simulator, появления собственных скриншотов и воспроизводимых тестов. До этого CineFlow остаётся прозрачным roadmap-проектом.
-
-<p align="center">
-  <a href="https://github.com/mrjakeball/portfolio">← Вернуться к списку проектов</a>
-</p>
