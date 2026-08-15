@@ -22,7 +22,7 @@
 | Исходники | Появятся после создания Xcode-проекта |
 
 <p align="center">
-  <a href="./assets/concept-map.svg"><img src="./assets/concept-map.svg" alt="План пользовательского маршрута CineFlow" width="86%" /></a>
+  <a href="./assets/concept-map.svg"><img src="./assets/concept-map.svg" alt="План пользовательского маршрута CineFlow" width="760" /></a>
 </p>
 
 ## Один понятный маршрут

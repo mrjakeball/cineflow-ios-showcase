@@ -22,7 +22,7 @@ A future native catalogue app bringing film collections, search, details, favour
 | Source | Will be created with the Xcode project |
 
 <p align="center">
-  <a href="./assets/concept-map.svg"><img src="./assets/concept-map.svg" alt="Planned CineFlow user journey" width="86%" /></a>
+  <a href="./assets/concept-map.svg"><img src="./assets/concept-map.svg" alt="Planned CineFlow user journey" width="760" /></a>
 </p>
 
 ## One clear journey
