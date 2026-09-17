@@ -21,7 +21,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="131"/>
+            <point key="canvasLocation" x="1064.885496183206" y="130.98591549295776"/>
         </scene>
         <!--Каталог-->
         <scene sceneID="k2n-30-PBp">
@@ -33,11 +33,11 @@
                         <viewLayoutGuide key="safeArea" id="PSJ-Sm-Eez"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Каталог" id="i5Z-kP-zDv"/>
+                    <navigationItem key="navigationItem" title="Каталог" id="hjt-fd-hVp"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5gC-FK-uA7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-598" y="104"/>
+            <point key="canvasLocation" x="327.48091603053433" y="103.52112676056339"/>
         </scene>
         <!--Главная-->
         <scene sceneID="28L-9j-48Z">
@@ -66,7 +66,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="4vD-f2-lu2" kind="relationship" relationship="viewControllers" id="RVv-p3-5ae"/>
-                        <segue destination="aui-cP-gRr" kind="relationship" relationship="viewControllers" id="9pZ-lc-1y9"/>
+                        <segue destination="8nS-8H-jcW" kind="relationship" relationship="viewControllers" id="9pZ-lc-1y9"/>
                         <segue destination="D7H-yg-tWE" kind="relationship" relationship="viewControllers" id="PgD-gy-EeM"/>
                         <segue destination="dad-UF-YdA" kind="relationship" relationship="viewControllers" id="gQd-Yk-7vg"/>
                     </connections>
@@ -106,6 +106,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qwi-k6-94m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2027" y="374"/>
+        </scene>
+        <!--Каталог-->
+        <scene sceneID="u16-ac-QXc">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8nS-8H-jcW" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Каталог" id="i5Z-kP-zDv"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="T2X-mX-lea">
+                        <rect key="frame" x="0.0" y="118" width="393" height="54"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="aui-cP-gRr" kind="relationship" relationship="rootViewController" id="nPG-Nb-4V2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0GL-xC-Afv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-599.23664122137404" y="103.52112676056339"/>
         </scene>
     </scenes>
     <resources>
