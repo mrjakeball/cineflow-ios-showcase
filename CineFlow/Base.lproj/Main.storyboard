@@ -26,7 +26,7 @@
         <!--Каталог-->
         <scene sceneID="k2n-30-PBp">
             <objects>
-                <viewController title="Каталог" id="aui-cP-gRr" sceneMemberID="viewController">
+                <viewController title="Каталог" id="aui-cP-gRr" customClass="CatalogViewController" customModule="CineFlow" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="utN-cT-tcf">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
