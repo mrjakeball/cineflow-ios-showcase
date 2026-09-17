@@ -30,6 +30,17 @@
                     <view key="view" contentMode="scaleToFill" id="utN-cT-tcf">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dMt-xw-KCg">
+                                <rect key="frame" x="122" y="383" width="149" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Открыть фильм"/>
+                                <connections>
+                                    <segue destination="GIE-GY-dhf" kind="show" id="jHm-Ha-WkF"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="PSJ-Sm-Eez"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -125,6 +136,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0GL-xC-Afv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-599.23664122137404" y="103.52112676056339"/>
+        </scene>
+        <!--Фильм-->
+        <scene sceneID="W6o-is-PBI">
+            <objects>
+                <viewController title="Фильм" id="GIE-GY-dhf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xkL-c3-bz1">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="IZ2-bg-8Da"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="mzQ-Qd-tQZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ftN-lh-HF6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-610" y="-573"/>
         </scene>
     </scenes>
     <resources>
