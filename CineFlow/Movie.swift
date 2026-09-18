@@ -1,10 +1,3 @@
-//
-//  Movie.swift
-//  CineFlow
-//
-//  Created by Aleshka on 17.09.2026.
-//
-
 import Foundation
 
 struct Movie {

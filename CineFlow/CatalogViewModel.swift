@@ -1,15 +1,8 @@
-//
-//  CatalogViewModel.swift
-//  CineFlow
-//
-//  Created by Aleshka on 17.09.2026.
-//
-
 import Foundation
 
 final class CatalogViewModel {
 
-    let movies: [Movie] = [
+    private(set) var movies: [Movie] = [
         Movie(
             id: 1,
             title: "Interstellar",
@@ -31,4 +24,12 @@ final class CatalogViewModel {
             rating: 9.0
         )
     ]
+
+    var numberOfMovies: Int {
+        movies.count
+    }
+
+    func movie(at index: Int) -> Movie {
+        movies[index]
+    }
 }
